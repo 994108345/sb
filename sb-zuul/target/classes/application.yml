@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: sb-zuul #该项目名
+
+server:
+  host: localhost
+  port: 7061
+
+
+zuul:
+  routes:
+    sb-provider: /zuul-demo/**
+
+eureka:
+  client:
+    #将此项目注册到Eureka服务
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://root:root@localhost:7001/eureka
+
+

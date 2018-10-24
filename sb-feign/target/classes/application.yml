@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: sb-feign
+server:
+  port: 7051
+
+eureka:
+  client:
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://root:root@localhost:7001/eureka

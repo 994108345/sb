@@ -1,0 +1,4 @@
+cn\wzl\sb\spring\cloud\consumer\CloudDemoConsumerFeignApplication.class
+cn\wzl\sb\spring\cloud\consumer\domain\UserInfo.class
+cn\wzl\sb\spring\cloud\consumer\feign\UserFeignClient.class
+cn\wzl\sb\spring\cloud\consumer\controller\UserController.class

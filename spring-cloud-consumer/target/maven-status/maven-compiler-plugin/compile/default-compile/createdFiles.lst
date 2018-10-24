@@ -1,0 +1,7 @@
+cn\wzl\spring\cloud\consumer\CloudDemoConsumerApplication.class
+cn\wzl\spring\cloud\consumer\config\LoadBalanced.class
+cn\wzl\spring\cloud\consumer\annotion\ExcludeFromComponentScan.class
+cn\wzl\spring\cloud\consumer\controller\UserController.class
+cn\wzl\spring\cloud\consumer\domain\UserInfo.class
+cn\wzl\spring\cloud\consumer\annotion\AvoidLoanbalanced.class
+cn\wzl\spring\cloud\consumer\domain\TestRule.class

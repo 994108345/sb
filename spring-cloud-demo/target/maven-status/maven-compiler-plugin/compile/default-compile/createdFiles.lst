@@ -1,0 +1,4 @@
+cn\wzl\sb\spring\cloud\consumer\demo\domain\User.class
+cn\wzl\sb\spring\cloud\consumer\demo\domain\UserInfo.class
+cn\wzl\sb\spring\cloud\consumer\demo\controller\UserController.class
+cn\wzl\sb\spring\cloud\consumer\demo\CloudDemoProviderApplication.class

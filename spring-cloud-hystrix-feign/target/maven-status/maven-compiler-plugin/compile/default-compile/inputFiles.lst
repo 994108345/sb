@@ -1,0 +1,6 @@
+F:\project\myproject\sb\sb\spring-cloud-hystrix-feign\src\main\java\cn\wzl\spring\cloud\consumer\CloudDemoConsumerHystrixFeignApplicationApplication.java
+F:\project\myproject\sb\sb\spring-cloud-hystrix-feign\src\main\java\cn\wzl\spring\cloud\consumer\feign\HystrixClientFactory.java
+F:\project\myproject\sb\sb\spring-cloud-hystrix-feign\src\main\java\cn\wzl\spring\cloud\consumer\feign\UserFeignClient.java
+F:\project\myproject\sb\sb\spring-cloud-hystrix-feign\src\main\java\cn\wzl\spring\cloud\consumer\feign\HystrixClientFallback.java
+F:\project\myproject\sb\sb\spring-cloud-hystrix-feign\src\main\java\cn\wzl\spring\cloud\consumer\domain\UserInfo.java
+F:\project\myproject\sb\sb\spring-cloud-hystrix-feign\src\main\java\cn\wzl\spring\cloud\consumer\controller\UserController.java

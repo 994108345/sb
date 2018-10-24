@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: sb-hystrix-dashboard
+server:
+  port: 7049

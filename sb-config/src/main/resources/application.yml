@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: sb-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/994108345/spring-cloud-config.git
+          searchPaths:
+          username: 994108345@qq.com
+          password: as7758959a
+server:
+  port: 7071
+
