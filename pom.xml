@@ -7,104 +7,19 @@
 	<artifactId>sb</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<modules>
-		<module>spring-cloud-demo</module>
-		<module>spring-cloud-consumer</module>
-		<module>spring-cloud-eureka</module>
-		<module>spring-cloud-provider</module>
-        <module>spring-cloud-consumer1</module>
-        <module>spring-cloud-eureka-high</module>
-        <module>spring-cloud-eureka-high1</module>
-		<module>spring-cloud-eureka-high2</module>
-		<module>spring-cloud-hystrix</module>
-		<module>spring-cloud-hystrix-feign</module>
-		<module>spring-cloud-zuul</module>
-        <module>sb-eureka</module>
-		<module>sb-eureka1</module>
-        <module>sb-consumer</module>
-        <module>sb-provider</module>
-        <module>study-simple</module>
-		<module>sb-eureka-nosecurity</module>
-        <module>sb-provider1</module>
-        <module>sb-consumer1</module>
-        <module>sb-hystrix</module>
-        <module>sb-code-test</module>
-        <module>sb-hystrix1</module>
-		<module>sb-hystrix-dashboard</module>
-		<module>sb-feign</module>
-        <module>sb-feign-provider</module>
-		<module>sb-zuul</module>
-        <module>sb-config</module>
-		<module>sb-bus</module>
+		<module>ribbon-provider-a</module>
+		<module>ribbon-provider-b</module>
+		<module>ribbon-consumer</module>
+        <module>hystrix</module>
+        <module>feign</module>
+        <module>hystrix-dashboard</module>
+		<module>zuui</module>
 	</modules>
 	<packaging>pom</packaging>
 
 	<name>sb</name>
 	<description>Demo project for Spring Boot</description>
 
-	<!--<parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.0.1.RELEASE</version>
-	</parent>
-
-	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<java.version>1.8</java.version>
-	</properties>
-
-	<dependencies>
-		&lt;!&ndash;spring boot 依赖&ndash;&gt;
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
-		&lt;!&ndash;spring boot的检测包&ndash;&gt;
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-actuator</artifactId>
-		</dependency>
-		&lt;!&ndash;spring -cloud&ndash;&gt;
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-config</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-		</dependency>
-	</dependencies>
-
-	<dependencyManagement>
-		<dependencies>
-			<dependency>
-				<groupId>org.springframework.cloud</groupId>
-				<artifactId>spring-cloud-dependencies</artifactId>
-				<version>Finchley.SR1</version>
-				<type>pom</type>
-				<scope>import</scope>
-			</dependency>
-		</dependencies>
-	</dependencyManagement>
-
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
-	</build>-->
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>

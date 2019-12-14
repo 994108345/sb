@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: zuul
+server:
+  port: 5007
+
+eureka:
+  client:
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://root:root@106.15.198.170:7002/eureka/

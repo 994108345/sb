@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: hystrix-dashboard
+server:
+  port: 5006
+
+eureka:
+  client:
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://root:root@106.15.198.170:7002/eureka/
